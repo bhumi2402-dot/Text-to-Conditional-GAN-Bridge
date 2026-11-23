@@ -388,4 +388,5 @@ with gr.Blocks(title="Text-to-Conditional-GAN Fashion Bridge") as demo:
             )
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860, theme=custom_theme, share=False)
+    port = int(os.environ.get("PORT", 7860))
+    demo.launch(server_name="0.0.0.0", server_port=port, theme=custom_theme, share=False)
