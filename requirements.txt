@@ -1,0 +1,30 @@
+# Text-to-Conditional-GAN Bridge: Dependencies
+# PyTorch & Computer Vision (CPU-optimized for Spaces & local testing)
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Multimodal & Transformers
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+accelerate>=0.28.0
+
+# LLM APIs & Schema Validation
+pydantic>=2.7.0
+groq>=0.9.0
+google-genai>=0.1.0
+requests>=2.31.0
+python-dotenv>=1.0.1
+
+# Web Application & Visualization
+gradio>=4.28.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+pillow>=10.2.0
+numpy>=1.26.0
+
+# PDF Report Generation & Quality Assurance
+reportlab>=4.1.0
+pytest>=8.1.0
+tqdm>=4.66.0
